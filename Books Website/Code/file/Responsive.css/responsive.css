@@ -1,0 +1,488 @@
+@media only screen and (min-width: 200px) and (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .button-area button {
+    padding: 10px 10px;
+  }
+  /* *************************************************************************************************  header  ************************************************************************************************ */
+
+  .header-container-inr {
+    padding: 0px;
+    margin: 20px 0px;
+  }
+  .header-container-inr-logo-20 {
+    width: 100%;
+  }
+  .header-container-inr-logo-20-100 {
+    width: 50%;
+    float: none;
+    margin: 0px auto;
+  }
+  .header-container-inr-list-item-60 {
+    width: 100%;
+  }
+  .header-unorder-list {
+    text-align: center;
+  }
+  .header-unorder-list .header-list a {
+    line-height: 2;
+  }
+  .header-container-inr-icon-20 {
+    display: none;
+  }
+  /* ************************************************************************************************* Banner     ************************************************************************************************ */
+  .banner {
+    background-position: center;
+  }
+  .banner-container-inr-text-35 {
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+  }
+  .banner-container-inr-text-35-100 {
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+  }
+  .banner-container-inr-text-35-100 .banner-small-heading {
+    text-align: center;
+  }
+  .banner-container-inr-text-35-100 .banner-big-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+  .banner-container-inr-text-35-100 .banner-pagagraph {
+    margin: 15px 0px;
+    text-align: center;
+  }
+  .gap-banner-30 {
+    display: none;
+  }
+  .banner-container-inr-image-35 {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  /* ************************************************************************************************* About Author ************************************************************************************************ */
+  .author-container-inr-image-45 {
+    width: 100%;
+  }
+  .gap-author-20 {
+    display: none;
+  }
+  .author-container-inner-text-35 {
+    width: 100%;
+    text-align: center;
+  }
+  .author-container-inner-text-35-100 .author-big-heading {
+    font-size: 20px;
+  }
+  /* ************************************************************************************************* image carousel ************************************************************************************************ */
+  .image-carousel-inr-25 {
+    width: 100%;
+    text-align: center;
+  }
+  .image-carousel {
+    margin: 0px auto;
+  }
+  .image-carousel-inr-25-100 {
+    float: none;
+    margin: 0px 0px 30px 0px;
+  }
+
+  /* ************************************************************************************************* best selling book heading************************************************************************************************ */
+
+  .best-sellling-books {
+    margin: 0px 0px 50px 0px;
+  }
+  .best-selling-book-title {
+    margin: 0px 0px 50px 0px;
+  }
+  .best-selling-book-title .best-selling-book-heading {
+    font-size: 20px;
+  }
+  .best-selling-book-title .best-selling-book-paragraph {
+    font-size: 16px;
+    line-height: 2.5;
+  }
+  /* ************************************************************************************************* best selling books************************************************************************************************ */
+
+  .best-selling-books-inr-25 {
+    width: 100%;
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .best-selling-books-inr-25 .best-selling-books-inr-25-100 {
+    margin: 20px 0px;
+  }
+  /* ************************************************************************************************* latest youtube video section ************************************************************************************************ */
+  .youtube-video {
+    height: 600px;
+    background-position: center;
+    margin: 0px 0px 0px 0px;
+  }
+  .youtube-video-inr .youtube-video-50 {
+    display: none;
+  }
+  .youtube-video-50 .youtube-video-50-100 {
+    top: 0px;
+  }
+  .element-icon-wrapper .element-icon-new {
+    display: none;
+  }
+  .element-icon-new i {
+    display: none;
+  }
+  .youtube-video-50-100-second {
+    top: 160px;
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .youtube-video-50-second {
+    width: 100%;
+  }
+  .youtube-video-50-100-second .youtube-video-text-big-heading {
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
+  }
+  /* ************************************************************************************************* more videos ************************************************************************************************ */
+  .more-youtube-videos-text-container {
+    height: auto;
+  }
+  .more-youtube-videos-text-container-inr-50 {
+    width: 100%;
+  }
+  .More-youtube-videos-titel-text {
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+  }
+  .More-youtube-videos-titel-text .fa-brands {
+    font-size: 20px;
+  }
+  .More-youtube-videos-titel-text-right {
+    display: none;
+  }
+
+  /* ************************************************************************************************* 3 video iamge ************************************************************************************************ */
+
+  .three-video-image-inr-33 {
+    width: 100%;
+  }
+
+  .three-video-image-inr-33-100-one {
+    height: 200px;
+    background-position: center;
+  }
+  .three-video-image-inr-33-100-two {
+    height: 200px;
+    background-position: center;
+  }
+
+  .three-video-image-inr-33-100-three {
+    height: 200px;
+    background-position: center;
+  }
+  /* ************************************************************************************************* 3 video iamge text************************************************************************************************ */
+
+  .three-video-image-inr-text-33 {
+    display: none;
+  }
+  /* *************************************************************************************************Audio book section
+************************************************************************************************ */
+  .audio-book-wrapper {
+    height: auto;
+  }
+  .latest-audio-book-inr-heading {
+    font-size: 20px;
+  }
+  .latest-audio-book-img-text-wrap-25 {
+    width: 100%;
+    text-align: center;
+  }
+  /* *************************************************************************************************newsletter-subscribe
+************************************************************************************************ */
+
+  .newsletter-text-wrap .newsletter-heading {
+    font-size: 20px;
+  }
+  .email-subscribe-80 {
+    width: 100%;
+  }
+  .email-subscribe-button-20 {
+    width: 100%;
+  }
+  .email-subscribe-button-20-100 {
+    text-align: center;
+  }
+  /* *************************************************************************************************Footer
+************************************************************************************************ */
+  .footer-container {
+    height: 400px;
+  }
+  .footer-container-inr {
+    padding: 0px;
+    margin: 40px 0px;
+  }
+  .footer-container-inr-33 {
+    width: 100%;
+    margin: 0px;
+  }
+  .footer-logo {
+    width: 40%;
+    margin: 0px auto;
+  }
+
+  .footer-container-inr-33-100 {
+    float: none;
+    text-align: center;
+  }
+  .footer-container-inr-33-100 .footer-unorder-list {
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+  }
+  .footer-unorder-list .footer-list {
+    display: block;
+    padding: 5px 0px;
+  }
+  .footer-container-inr-33-100 {
+    float: none;
+    text-align: center;
+    margin: 0px 0px -15px 0px;
+  }
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------For tablet responsive------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* *************************************************************************************************  header  ************************************************************************************************ */
+
+  .header-container-inr-logo-20 {
+    width: 20%;
+  }
+  .header-container-inr-logo-20-100 {
+    width: 100%;
+    float: left;
+    margin: 0px;
+  }
+  .header-container-inr-list-item-60 {
+    width: 80%;
+    margin: 10px 0px;
+  }
+  .header-unorder-list {
+    text-align: end;
+  }
+  .header-unorder-list .header-list a {
+    line-height: 0;
+  }
+
+  /* ************************************************************************************************* Banner     ************************************************************************************************ */
+  .banner-container-inr-text-35 {
+    width: 35%;
+    margin: 0px;
+  }
+  .banner-container-inr-text-35-100 {
+    margin: 100px 0px 0px 0px;
+    text-align: start;
+  }
+  .banner-container-inr-text-35-100 .banner-small-heading {
+    text-align: start;
+  }
+  .banner-container-inr-text-35-100 .banner-big-heading {
+    text-align: start;
+    font-size: 30px;
+  }
+  .banner-container-inr-text-35-100 .banner-pagagraph {
+    text-align: start;
+  }
+  .gap-banner-30 {
+    display: block;
+  }
+  .banner-container-inr-image-35 {
+    width: 45%;
+    height: auto;
+    float: left;
+    margin: 40px 0px;
+  }
+  .gap-banner-30 {
+    width: 20%;
+    height: 10px;
+    float: left;
+  }
+  /* ************************************************************************************************* About Author ************************************************************************************************ */
+  .author-container-inr-image-45 {
+    width: 50%;
+  }
+  .author-container-inner-text-35 {
+    width: 50%;
+    padding: 0px;
+    position: relative;
+    text-align: start;
+  }
+  .author-container-inner-text-35 .author-container-inner-text-35-100 {
+    position: absolute;
+    top: 65px;
+    padding: 0px 25px;
+  }
+  .author-container-inner-text-35-100 .author-big-heading {
+    font-size: 30px;
+  }
+  .author-container-inner-text-35-100 .author-pagagraph {
+    margin: 30px 0px;
+    line-height: normal;
+  }
+  .author-pagagraph br {
+    display: none;
+  }
+  .author-pagagraph .display-none-for-tab {
+    display: none;
+  }
+  /* ************************************************************************************************* image carousel ************************************************************************************************ */
+  .image-carousel-inr-25 {
+    width: 50%;
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  /* ************************************************************************************************* best selling book heading************************************************************************************************ */
+
+  .best-selling-book-title .best-selling-book-heading {
+    font-size: 40px;
+  }
+  .best-selling-book-title .best-selling-book-paragraph {
+    line-height: 1.9;
+  }
+  /* ************************************************************************************************* best selling books************************************************************************************************ */
+  .best-sellling-books {
+    margin: 0px 0px 30px 0px;
+  }
+  .best-selling-books-inr-25 {
+    width: 50%;
+  }
+  /* ************************************************************************************************* latest youtube video section ************************************************************************************************ */
+  .youtube-video {
+    height: 400px;
+  }
+  .youtube-video-50-100-second {
+    top: 130px;
+    padding: 0px;
+  }
+  .youtube-video-50-second {
+    width: 100%;
+  }
+  .youtube-video-50-100-second .youtube-video-text-big-heading {
+    margin: 0px 0px 20px 0px;
+  }
+  .youtube-video-50-100-second .youtube-video-text-heading {
+    margin: 0px 0px 20px 0px;
+  }
+  /* ************************************************************************************************* more videos ************************************************************************************************ */
+  .more-youtube-videos-text-container-inr {
+    margin: 0px 0px 50px 0px;
+  }
+  .More-youtube-videos-titel-text {
+    font-size: 30px;
+  }
+  .More-youtube-videos-titel-text .fa-brands {
+    font-size: 30px;
+  }
+  /* ************************************************************************************************* 3 video iamge ************************************************************************************************ */
+
+  .three-video-image-inr-33 {
+    width: 33%;
+  }
+
+  .three-video-image-inr-33-100-one {
+    height: 240px;
+  }
+  .three-video-image-inr-33-100-two {
+    height: 240px;
+  }
+
+  .three-video-image-inr-33-100-three {
+    height: 240px;
+  }
+  /* ************************************************************************************************* 3 video iamge text************************************************************************************************ */
+
+  .three-video-image-inr-text-33 {
+    display: block;
+  }
+  .three-video-image-inr-text-33-100-heading {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  /* *************************************************************************************************Audio book section
+************************************************************************************************ */
+
+  .latest-audio-book-inr-heading {
+    font-size: 30px;
+  }
+  .latest-audio-book-img-text-wrap-25 {
+    width: 50%;
+    padding: 30px;
+  }
+  /* *************************************************************************************************newsletter-subscribe
+************************************************************************************************ */
+
+  .newsletter-text-wrap .newsletter-heading {
+    font-size: 30px;
+  }
+
+  /* *************************************************************************************************Footer
+************************************************************************************************ */
+  .footer-container {
+    height: 500px;
+  }
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------For 1024 device ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* *************************************************************************************************  header  ************************************************************************************************ */
+  .header {
+    padding: 10px 0px 50px 0px;
+  }
+  /* ************************************************************************************************* Banner     ************************************************************************************************ */
+  .banner-container-inr {
+    position: relative;
+  }
+  .banner-container-inr-text-35 {
+    width: 40%;
+    margin: 0px;
+    position: relative;
+    top: 150px;
+  }
+  .banner-container-inr-image-35 {
+    width: 40%;
+  }
+  /* ************************************************************************************************* About Author ************************************************************************************************ */
+  .author-container-inr-image-45 {
+    width: 50%;
+  }
+  .author-container-inner-text-35 {
+    width: 50%;
+  }
+  .author-container-inner-text-35 {
+    width: 50%;
+  }
+  .author-container-inner-text-35 .author-container-inner-text-35-100 {
+    top: 30px;
+  }
+
+  .author-container-inner-text-35-100 .author-pagagraph {
+    margin: 12px 0px;
+    line-height: 2.1;
+  }
+  .author-pagagraph br {
+    display: block;
+  }
+  .author-pagagraph .display-none-for-tab {
+    display: block;
+  }
+  /* ************************************************************************************************* best selling books************************************************************************************************ */
+  .best-selling-books-inr-25 {
+    width: 25%;
+  }
+  /* *************************************************************************************************Audio book section
+************************************************************************************************ */
+
+  .latest-audio-book-img-text-wrap-25 {
+    width: 25%;
+    padding: 20px;
+  }
+}

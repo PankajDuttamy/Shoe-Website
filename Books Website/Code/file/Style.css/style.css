@@ -1,0 +1,929 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font-family: 'Heebo',sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+/* font-family: 'EB Garamond', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+}
+:root {
+  --e-global-color-astglobalcolor0: #5f4ecb;
+  --e-global-color-astglobalcolor1: #4d3bc6;
+  --e-global-color-astglobalcolor2: #25272d;
+  --e-global-color-astglobalcolor3: #565a61;
+  --e-global-color-astglobalcolor4: #f2f5f7;
+  --e-global-color-astglobalcolor5: #ffffff;
+  --e-global-color-astglobalcolor6: #f2f5f7;
+  --e-global-color-astglobalcolor7: #424242;
+  --e-global-color-astglobalcolor8: #000000;
+}
+
+:root {
+  --ast-global-color-0: #5f4ecb;
+  --ast-global-color-1: #4d3bc6;
+  --ast-global-color-2: #25272d;
+  --ast-global-color-3: #565a61;
+  --ast-global-color-4: #f2f5f7;
+  --ast-global-color-5: #ffffff;
+  --ast-global-color-6: #f2f5f7;
+  --ast-global-color-7: #424242;
+  --ast-global-color-8: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--ast-global-color-3);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+body {
+  position: relative;
+}
+
+li {
+  list-style: none;
+  font-family: "Heebo", sans-serif;
+}
+
+body {
+  background-color: var(--ast-global-color-5);
+  background-image: none;
+}
+
+/* remove outline around text */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+/* text selection color  */
+::selection {
+  color: #fff;
+  background: var(--e-global-color-astglobalcolor1);
+}
+img {
+  user-select: none;
+  display: block;
+}
+.image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+.button-area {
+  width: 100%;
+  height: auto;
+}
+.button-area button {
+  fill: var(--e-global-color-astglobalcolor4);
+  color: var(--e-global-color-astglobalcolor4);
+  background-color: var(--e-global-color-astglobalcolor0);
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Heebo", sans-serif;
+  border-radius: 3px;
+}
+.button-area button:hover {
+  background-color: var(--e-global-color-astglobalcolor1);
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.button-area a {
+  padding: 0px 15px 0px 0px;
+  margin: 0;
+}
+.button-area .btn-2 {
+  background-color: transparent;
+  border: 1px solid var(--e-global-color-astglobalcolor0);
+  color: var(--e-global-color-astglobalcolor0);
+  transition: all 0.2s linear;
+}
+.button-area .btn-2:hover {
+  background-color: var(--e-global-color-astglobalcolor1);
+  color: var(--e-global-color-astglobalcolor4);
+}
+
+/* *************************************************************************************************  header  ************************************************************************************************ */
+
+.header {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.header-container-inr {
+  width: 100%;
+  height: auto;
+  float: left;
+  padding: 40px 0px;
+}
+.header-container-inr-logo-20 {
+  width: 20%;
+  height: auto;
+  float: left;
+}
+.header-container-inr-logo-20-100 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+}
+
+.header-container-inr-list-item-60 {
+  width: 60%;
+  height: auto;
+  float: left;
+  margin: 20px 0px 0px 0px;
+}
+.header-container-inr-list-item-60-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.header-unorder-list {
+  text-align: right;
+}
+.header-unorder-list .header-list {
+  display: inline-block;
+}
+.header-unorder-list .header-list a {
+  font-size: 16px;
+  color: var(--ast-global-color-2);
+  transition: all 0.2s linear;
+  padding: 0px 10px;
+}
+.header-unorder-list .header-list a:hover {
+  font-size: 16px;
+  color: var(--ast-global-color-8);
+}
+.header-container-inr-icon-20 {
+  width: 20%;
+  height: auto;
+  float: left;
+  margin: 20px 0px 0px 0px;
+}
+.header-container-inr-icon-20-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+  text-align: right;
+}
+.header-container-inr-icon-20-100 .fa-solid {
+  font-size: 16px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+/* ************************************************************************************************* Banner     ************************************************************************************************ */
+.banner {
+  width: 100%;
+  height: auto;
+  float: left;
+  background-image: url("/Image Background/Gradient\ Fill\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  margin: 0px 0px 100px 0px;
+}
+.banner-container-inr {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.banner-container-inr-text-35 {
+  width: 35%;
+  height: auto;
+  float: left;
+}
+.banner-container-inr-text-35-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 100px 0px;
+}
+.banner-container-inr-text-35-100 .banner-small-heading {
+  color: var(--e-global-color-astglobalcolor0);
+  font-size: 16px;
+  margin: 0px 0px 20px 0px;
+}
+.banner-container-inr-text-35-100 .banner-big-heading {
+  color: var(--e-global-color-astglobalcolor2);
+  font-family: "EB Garamond", serif;
+  font-size: 80px;
+  font-weight: 500;
+}
+.banner-container-inr-text-35-100 .banner-pagagraph {
+  color: var(--ast-global-color-2);
+  font-size: 16px;
+  margin: 30px 0px;
+  line-height: 2.1;
+}
+.gap-banner-30 {
+  width: 30%;
+  height: 10px;
+  float: left;
+}
+.banner-container-inr-image-35 {
+  width: 35%;
+  height: auto;
+  float: left;
+  margin: 40px 0px;
+}
+.banner-container-inr-image-35-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+  overflow: hidden;
+}
+
+/* ************************************************************************************************* About Author ************************************************************************************************ */
+
+.author {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 0px 0px 100px 0px;
+}
+.author-container-inr {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.author-container-inr-image-45 {
+  width: 45%;
+  height: auto;
+  float: left;
+}
+.author-container-inr-image-45-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.gap-author-20 {
+  width: 20%;
+  height: 100px;
+  float: left;
+}
+
+.author-container-inner-text-35 {
+  width: 35%;
+  height: auto;
+  float: left;
+  padding: 20px 0px;
+}
+.author-container-inner-text-35-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.author-container-inner-text-35-100 .author-small-heading {
+  color: var(--e-global-color-astglobalcolor0);
+  font-size: 16px;
+  margin: 0px 0px 20px 0px;
+}
+.author-container-inner-text-35-100 .author-big-heading {
+  color: var(--e-global-color-astglobalcolor2);
+  font-family: "EB Garamond", serif;
+  font-size: 48px;
+  font-weight: 500;
+}
+.author-container-inner-text-35-100 .author-pagagraph {
+  color: var(--ast-global-color-2);
+  font-size: 16px;
+  margin: 30px 0px;
+  line-height: 2.1;
+}
+
+/* ************************************************************************************************* image carousel ************************************************************************************************ */
+
+.image-carousel-section {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0px 0px 100px 0px;
+}
+.image-carousel-inr {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.image-carousel-inr-25 {
+  width: 25%;
+  height: auto;
+  float: left;
+}
+.image-carousel-inr-25-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 0px 0px 0px 30px;
+}
+.image-carousel-inr-25-100 .image-carousel-heading {
+  color: var(--ast-global-color-2);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Heebo", sans-serif;
+  margin: 15px 0px;
+}
+.image-carousel-inr-25-100 .image-carousel-paragraph {
+  font-size: 14px;
+}
+
+/* ************************************************************************************************* best selling book heading************************************************************************************************ */
+.best-selling-book-title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0px 0px 100px 0px;
+}
+.best-selling-book-title .best-selling-book-heading {
+  color: var(--ast-global-color-2);
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "EB Garamond", serif;
+  margin: 0px 0px 20px 0px;
+}
+.best-selling-book-title .best-selling-book-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ************************************************************************************************* best selling books heading************************************************************************************************ */
+.best-sellling-books {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0px 0px 100px 0px;
+}
+.best-selling-books-inr {
+  width: 100%;
+  height: auto;
+  float: left;
+  position: relative;
+}
+.best-selling-books-inr-25 {
+  width: 25%;
+  height: auto;
+  float: left;
+  padding: 0px 20px;
+}
+.best-selling-books-inr-25 .best-selling-books-inr-25-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.best-selling-books-inr-25-100 .best-selling-books-name {
+  margin: 20px 0px 10px 0px;
+}
+.best-selling-books-inr-25-100 .best-selling-books-name a {
+  color: var(--ast-global-color-2);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "EB Garamond", serif;
+}
+.best-selling-books-inr-25-100 .best-selling-books-price {
+  color: var(--ast-global-color-3);
+  font-weight: 700;
+  margin: 5px 0px 0px 0px;
+}
+
+/* ************************************************************************************************* shop-now-button************************************************************************************************ */
+
+.shop-now-button {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0px 0px 100px 0px;
+}
+
+/* ************************************************************************************************* latest youtube video section ************************************************************************************************ */
+.youtube-video {
+  width: 100%;
+  height: 650px;
+  background-image: url("/Vidoes img/author-book-store-latest-movie-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 0px 0px 100px 0px;
+}
+.youtube-video-inr {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #565a6178 0%, #565a61 100%);
+  opacity: 1;
+  mix-blend-mode: difference;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.youtube-video-inr .youtube-video-50 {
+  width: 50%;
+  height: 600px;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+.youtube-video-50 .youtube-video-50-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+  position: absolute;
+  top: 300px;
+}
+.element-icon-wrapper {
+  width: 100%;
+  height: auto;
+  float: left;
+  text-align: center;
+}
+
+.element-icon-wrapper .element-icon-new {
+  border: 1px solid;
+  color: var(--e-global-color-astglobalcolor4);
+  border-color: var(--e-global-color-astglobalcolor4);
+  border-radius: 50%;
+  padding: 40px;
+  border-width: 3px;
+}
+
+.element-icon-new i {
+  transform: rotate(0deg);
+  width: 30px;
+  height: 25px;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+}
+
+.youtube-video-50-second {
+  width: 50%;
+  height: 600px;
+  float: left;
+  position: relative;
+}
+.youtube-video-50-100-second {
+  width: 100%;
+  height: auto;
+  float: left;
+  position: absolute;
+  top: 200px;
+}
+
+.youtube-video-50-second {
+  width: 50%;
+  height: auto;
+}
+.youtube-video-50-100-second .youtube-video-text-heading {
+  color: var(--e-global-color-astglobalcolor4);
+  margin: 0px 0px 30px 0px;
+}
+.youtube-video-text-heading .fa-brands {
+  color: red;
+  font-size: 25px;
+  margin: 0px 15px 0px 0px;
+  cursor: pointer;
+}
+.youtube-video-50-100-second .youtube-video-text-big-heading {
+  color: var(--e-global-color-astglobalcolor4);
+  font-family: "EB Garamond", serif;
+  font-size: 48px;
+  margin: 0px 0px 30px 0px;
+}
+.youtube-video-50-100-second .youtube-video-paragraph {
+  color: var(--e-global-color-astglobalcolor4);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* ************************************************************************************************* more videos ************************************************************************************************ */
+.more-youtube-videos-text-container {
+  width: 100%;
+  height: 100px;
+}
+.more-youtube-videos-text-container-inr {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 0px 0px 100px 0px;
+}
+.more-youtube-videos-text-container-inr-50 {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+.more-youtube-videos-text-container-inr-50-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.More-youtube-videos-titel-text {
+  color: var(--ast-global-color-2);
+  font-size: 32px;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "EB Garamond", serif;
+}
+.More-youtube-videos-titel-text .fa-brands {
+  color: red;
+  font-size: 30px;
+  margin: 0px 15px 0px 0px;
+}
+.More-youtube-videos-titel-text-right {
+  text-align: right;
+  margin: 15px 0px 0px 0px;
+}
+.More-youtube-videos-titel-text-right a {
+  color: var(--ast-global-color-2);
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "EB Garamond", serif;
+}
+.More-youtube-videos-titel-text-right .fa-solid {
+  color: var(--e-global-color-astglobalcolor0);
+  width: 5%;
+  font-size: 16px;
+}
+
+/* ************************************************************************************************* 3 video iamge ************************************************************************************************ */
+.three-video-image-wrap {
+  width: 100%;
+  float: left;
+  position: relative;
+  margin: 0px 0px 100px 0px;
+}
+
+.three-video-image-inr-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.three-video-image-inr-33 {
+  width: 33.33%;
+  height: auto;
+  float: left;
+  padding: 10px;
+}
+.three-video-image-inr-33-100-one {
+  width: 100%;
+  height: 240px;
+  background-image: url("/Video image/author-book-store-adaptation-movie-1.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  float: left;
+}
+.element-icon-wrapper-one {
+  width: 100%;
+  height: auto;
+  float: left;
+  text-align: center;
+  position: absolute;
+  top: 115px;
+}
+
+.element-icon-wrapper-one .element-icon {
+  border: 1px solid;
+  color: var(--e-global-color-astglobalcolor4);
+  border-color: var(--e-global-color-astglobalcolor4);
+  border-radius: 50%;
+  padding: 25px;
+  border-width: 2px;
+}
+
+.element-icon i {
+  transform: rotate(0deg);
+  width: 25px;
+  height: 25px;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+}
+
+.three-video-image-inr-33-100-two {
+  width: 100%;
+  height: 240px;
+  background-image: url("/Video image/author-book-store-adaptation-movie-2.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  float: left;
+}
+
+.element-icon-wrapper-two {
+  width: 100%;
+  height: auto;
+  float: left;
+  text-align: center;
+  position: absolute;
+  top: 115px;
+}
+
+.element-icon-wrapper-two .element-icon {
+  border: 1px solid;
+  color: var(--e-global-color-astglobalcolor4);
+  border-color: var(--e-global-color-astglobalcolor4);
+  border-radius: 50%;
+  padding: 25px;
+  border-width: 2px;
+}
+
+.three-video-image-inr-33-100-three {
+  width: 100%;
+  height: 240px;
+  background-image: url("/Video image/author-book-store-adaptation-movie-3.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  float: left;
+}
+
+.element-icon-wrapper-three {
+  width: 100%;
+  height: auto;
+  float: left;
+  text-align: center;
+  position: absolute;
+  top: 115px;
+}
+
+.element-icon-wrapper-three .element-icon {
+  border: 1px solid;
+  color: var(--e-global-color-astglobalcolor4);
+  border-color: var(--e-global-color-astglobalcolor4);
+  border-radius: 50%;
+  padding: 25px;
+  border-width: 2px;
+}
+
+/* ************************************************************************************************* 3 video iamge text************************************************************************************************ */
+
+.three-video-image-inr-text {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 10px 0px;
+}
+.three-video-image-inr-text-33 {
+  width: 33.33%;
+  height: auto;
+  float: left;
+}
+.three-video-image-inr-text-33 .three-video-image-inr-text-33-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.three-video-image-inr-text-33-100-heading {
+  text-align: center;
+  color: var(--ast-global-color-2);
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Heebo", sans-serif;
+}
+
+/* *************************************************************************************************Audio book section
+************************************************************************************************ */
+.audio-book-wrapper {
+  width: 100%;
+  height: 600px;
+  background-color: var(--e-global-color-astglobalcolor4);
+  float: left;
+  margin: 0px 0px 100px 0px;
+}
+.latest-audio-book-inr-100-textarea {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 20px 0px;
+  float: left;
+}
+.latest-audio-book-inr-heading {
+  color: var(--ast-global-color-2);
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "EB Garamond", serif;
+  margin: 0px 0px 15px 0px;
+}
+.latest-audio-book-inr-paragraph {
+  color: var(--ast-global-color-3);
+  line-height: 1.9;
+}
+
+.latest-audio-book-img-text-wrap {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 0px 0px 40px 0px;
+}
+.latest-audio-book-img-text-wrap-25 {
+  width: 25%;
+  height: auto;
+  float: left;
+  padding: 10px;
+}
+.latest-audio-book-img-text-wrap-25-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 0px 0px 30px 0px;
+}
+.latest-audio-book-heading {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Heebo", sans-serif;
+  margin: 0px 0px 10px 0px;
+}
+.element-button-wrapper {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.element-button-content-wrapper {
+  color: var(--ast-global-color-0);
+}
+.element-button-content-wrapper:hover {
+  color: var(--e-global-color-astglobalcolor8);
+  transition: all 0.2s linear;
+}
+.element-button-content-wrapper .element-button-icon {
+  margin: 0px 10px 0px 0px;
+}
+
+/* *************************************************************************************************newsletter-subscribe
+************************************************************************************************ */
+.newsletter-subscribe-wrapper {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 0px 0px 100px 0px;
+}
+.newsletter-subscribe-wrapper-inr {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.newsletter-text-wrap {
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 30px 0px;
+}
+.newsletter-text-wrap .newsletter-heading {
+  color: var(--ast-global-color-2);
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "EB Garamond", serif;
+  line-height: 1.9;
+}
+form {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.email-subscribe-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.email-subscribe-80 {
+  width: 80%;
+  height: auto;
+  float: left;
+}
+.email-subscribe-80 .email-subscribe-80-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.email-subscribe-button-20 {
+  width: 20%;
+  height: auto;
+  float: left;
+}
+.email-subscribe-button-20-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+  padding: 10px;
+  text-align: start;
+}
+
+.email-subscribe-button-20-100 .btn-2 {
+  background-color: transparent;
+  border: 1px solid var(--e-global-color-astglobalcolor0);
+  padding: 10px 15px;
+  cursor: pointer;
+  color: var(--e-global-color-astglobalcolor1);
+  transition: all 0.2s linear;
+}
+.email-subscribe-button-20-100 .btn-2:hover {
+  background-color: var(--e-global-color-astglobalcolor1);
+  color: var(--e-global-color-astglobalcolor4);
+}
+
+/* *************************************************************************************************Footer
+************************************************************************************************ */
+
+.footer-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-color: var(--ast-global-color-2);
+}
+.footer-container-inr {
+  width: 100%;
+  height: auto;
+  float: left;
+  padding: 100px 0px;
+}
+.footer-container-inr-33 {
+  width: 33.33%;
+  height: auto;
+  float: left;
+  margin: 20px 0px 0px 0px;
+}
+.footer-container-inr-33-100 {
+  width: 100%;
+  height: auto;
+  float: left;
+  overflow: hidden;
+  text-align: right;
+}
+.footer-container-inr-33-100 .footer-unorder-list {
+  text-align: right;
+}
+.footer-unorder-list .footer-list {
+  display: inline-block;
+}
+.footer-unorder-list .footer-list a {
+  font-size: 16px;
+  color: var(--ast-global-color-5);
+  transition: all 0.2s linear;
+  padding: 0px 10px;
+}
+
+.footer-container-inr-33-100 .fa-brands {
+  font-size: 16px;
+  padding: 0px 10px;
+  color: var(--ast-global-color-5);
+  cursor: pointer;
+}
+.footer-container-inr-copyright {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.footer-copyright-paragraph {
+  font-size: 16px;
+  color: var(--ast-global-color-5);
+  text-align: center;
+}
